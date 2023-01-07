@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(166, 221, 235, 0.0017);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
