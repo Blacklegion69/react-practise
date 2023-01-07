@@ -23,7 +23,7 @@ export default function Gradient() {
     <>
       <div className="bg-gradient-to-r from-cyan-500 to-blue-500 relative p-2 m-5 rounded flex justify-center flex-col items-center">
         <h3 className="bg-gradient-to-r from-orange-300 to-rose-400 bg-clip-text text-transparent m-3 p-2 rounded text-center  font-bold">
-          RGBa color Generator by me 
+          RGBa color Generator
         </h3>
         <div
           style={{ backgroundColor: `rgba(${red},${green},${blue},${alpha})` }}
