@@ -1,7 +1,12 @@
 import React from "react";
-import { Gradient } from "./components";
+import { Color } from "./components";
+
 function App() {
-  return <Gradient />;
+  return (
+    <>
+      <Color />
+    </>
+  );
 }
 
 export default App;

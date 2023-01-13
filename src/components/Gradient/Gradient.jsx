@@ -2,10 +2,14 @@ import "./style.module.css";
 import React, { useState } from "react";
 
 export default function Gradient() {
+  const random = () => {
+    const r = Math.floor(Math.random() * 255);
+    return r;
+  };
   const [color, setColor] = useState({
-    red: "18",
-    green: "28",
-    blue: "54",
+    red: random(),
+    green: random(),
+    blue: random(),
     alpha: "0.73",
   });
 
@@ -14,7 +18,6 @@ export default function Gradient() {
   const handleColor = (e) => {
     setColor({ ...color, [e.target.name]: e.target.value });
   };
-
   const copycode = (e) => {
     e.target.select();
     document.execCommand("copy");
