@@ -13,8 +13,7 @@ export default function Color() {
   for (let i = 0; i < 200; i++) {
     let hexcode = randomColor();
     items.push(
-      <div className=" flex text-sm font-bold justify-center items-center relative m-4 bg-slate-100"
-      >
+      <div className=" flex text-sm font-bold justify-center items-center relative m-4 bg-slate-100">
         <div
           style={{ backgroundColor: `#${hexcode}ff` }}
           className="w-20 h-32 m text-slate-900 overflow-hidden bg-slate-700 flex justify-center items-center relative"

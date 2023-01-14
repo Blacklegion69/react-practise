@@ -14,3 +14,4 @@ export { default as Gradient } from "./Gradient/Gradient";
 export { default as Child } from "./Child/Child";
 export { default as ToDo } from "./ToDo/ToDo";
 export { default as Color } from "./Color/Color";
+export { default as Colorgradient } from "./Colorgradient/Colorgradient";

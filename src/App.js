@@ -1,10 +1,10 @@
 import React from "react";
-import { Color } from "./components";
+import { Colorgradient } from "./components";
 
 function App() {
   return (
     <>
-      <Color />
+      <Colorgradient />
     </>
   );
 }
