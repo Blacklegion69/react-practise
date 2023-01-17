@@ -6,11 +6,14 @@ export default function Temperature() {
   const [icon, setIcon] = useState("🧊");
 
   const handleIcon = (result) => {
-    if (result <= 0) {
+    if (result >= 40) {
+      setIcon("🔥");
+    }
+    if (result <= -15) {
       setIcon("🧊");
     }
-    if (result >= 30) {
-      setIcon("🔥");
+    if (result < 10) {
+      setIcon("🥶")
     }
     if (result >= 25 && result <= 29) {
       setIcon("😁");
@@ -27,12 +30,16 @@ export default function Temperature() {
   const handleFahrenheit = (e) => {
     let fahrenheit = e.target.value;
     setFarenheit(fahrenheit);
-    setCelsius((5 * (e.target.value - 32)) / 9);
+    let celsius = (5 * (e.target.value - 32)) / 9;
+    setCelsius(celsius)
+    handleIcon(celsius)
     setKelvin((5 * (e.target.value - 32)) / 9 + 273);
   };
   const handleKelvin = (e) => {
     setKelvin(e.target.value);
-    setCelsius(e.target.value - 273.15);
+    let celsius = (e.target.value - 273.15);
+    setCelsius(celsius);
+    handleIcon(celsius);
     setFarenheit((9 * (e.target.value - 273)) / 5 + 32);
   };
   return (
