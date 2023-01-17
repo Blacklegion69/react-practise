@@ -41,7 +41,7 @@ export default function Temperature() {
         {" "}
         Temperature convertor{" "}
       </h4>
-      <div className="w-screen text-right pr-10 p-3 m-3 rounded-full">
+      <div className="w-full text-right pr-10 p-3 m-3 rounded-full">
         {" "}
         {icon}{" "}
       </div>
