@@ -15,3 +15,6 @@ export { default as Child } from "./Child/Child";
 export { default as ToDo } from "./ToDo/ToDo";
 export { default as Color } from "./Color/Color";
 export { default as Colorgradient } from "./Colorgradient/Colorgradient";
+export { default as Modernclock } from "./Modernclock/Modernclock";
+export { default as Condition } from "./Conditional_rendering";
+export { default as Temperature } from "./Temperature_Converter/Temperature";

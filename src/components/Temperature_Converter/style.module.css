@@ -1,0 +1,32 @@
+form {
+  width: 350px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+}
+input {
+  margin: 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  text-align: center;
+  border: 2px solid black;
+}
+h1 {
+  margin-top: 40px;
+}
+#kelvin {
+  margin-bottom: 40px;
+}
+#emoji {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 30px;
+}
