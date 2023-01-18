@@ -14,13 +14,13 @@ export default function HeroSec() {
           </p>
           <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
             <a
-              href="#"
+              href="www.google.com"
               className="block px-6 py-2 text-center text-white bg-yellow-600 rounded-md"
             >
               Buy Now
             </a>
             <a
-              href="#"
+              href="www.google.com"
               className="block px-6 py-2 text-center text-gray-500 bg-white rounded-md"
             >
               See More
@@ -31,6 +31,7 @@ export default function HeroSec() {
           <img
             src="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706__340.jpg"
             className="w-full mx-auto mt-6 sm:w-10/12 lg:w-full"
+            alt="shut up idk anything 😐 "
           />
         </div>
       </section>

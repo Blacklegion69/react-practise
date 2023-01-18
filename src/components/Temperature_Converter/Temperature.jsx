@@ -32,15 +32,15 @@ export default function Temperature() {
     setFarenheit(fahrenheit);
     let celsius = (5 * (e.target.value - 32)) / 9;
     setCelsius(celsius)
-    handleIcon(celsius)
     setKelvin((5 * (e.target.value - 32)) / 9 + 273);
+    handleIcon(celsius)
   };
   const handleKelvin = (e) => {
     setKelvin(e.target.value);
     let celsius = (e.target.value - 273.15);
     setCelsius(celsius);
-    handleIcon(celsius);
     setFarenheit((9 * (e.target.value - 273)) / 5 + 32);
+    handleIcon(celsius);
   };
   return (
     <form className="w-96 p-2 bg-slate-300 rounded flex justify-center relative items-center flex-col">
