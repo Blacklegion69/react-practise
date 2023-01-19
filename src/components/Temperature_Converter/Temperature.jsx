@@ -13,7 +13,7 @@ export default function Temperature() {
       setIcon("🧊");
     }
     if (result < 10) {
-      setIcon("🥶")
+      setIcon("🥶");
     }
     if (result >= 25 && result <= 29) {
       setIcon("😁");
@@ -31,13 +31,13 @@ export default function Temperature() {
     let fahrenheit = e.target.value;
     setFarenheit(fahrenheit);
     let celsius = (5 * (e.target.value - 32)) / 9;
-    setCelsius(celsius)
+    setCelsius(celsius);
     setKelvin((5 * (e.target.value - 32)) / 9 + 273);
-    handleIcon(celsius)
+    handleIcon(celsius);
   };
   const handleKelvin = (e) => {
     setKelvin(e.target.value);
-    let celsius = (e.target.value - 273.15);
+    let celsius = e.target.value - 273.15;
     setCelsius(celsius);
     setFarenheit((9 * (e.target.value - 273)) / 5 + 32);
     handleIcon(celsius);

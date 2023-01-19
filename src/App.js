@@ -1,10 +1,10 @@
 import React from "react";
-import { Temperature } from "./components";
+import { TextUtil } from "./components";
 
 function App() {
   return (
     <>
-      <Temperature />
+      <TextUtil />
     </>
   );
 }
