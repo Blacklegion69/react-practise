@@ -1,10 +1,10 @@
 import React from "react";
-import { Exercise01 } from "./components";
+import { Temperature } from "./components";
 
 function App() {
   return (
     <>
-      <Exercise01 />
+      <Temperature />
     </>
   );
 }
