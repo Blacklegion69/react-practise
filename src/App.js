@@ -1,10 +1,10 @@
 import React from "react";
-import { TextUtil } from "./components";
+import { Exercise01 } from "./components";
 
 function App() {
   return (
     <>
-      <TextUtil />
+      <Exercise01 />
     </>
   );
 }

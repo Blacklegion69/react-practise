@@ -20,3 +20,4 @@ export { default as Condition } from "./Conditional_rendering";
 export { default as Temperature } from "./Temperature_Converter/Temperature";
 export { default as Darkmode } from "./Darkmode/Darkmode";
 export { default as TextUtil } from "./TextUtil/TextUtil";
+export { default as Exercise01 } from "./Exercise01/";
